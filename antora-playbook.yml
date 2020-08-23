@@ -1,0 +1,16 @@
+site:
+  title: Phani Kandula's Website
+  start_page: career::index.adoc 
+content:
+  sources: 
+  - url: git@github.com:phanikandula/my-career.git
+    branches: master
+ui: 
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+output:
+  destinations:
+  - provider: fs
+    path: ./build/docs
+    clean: true
