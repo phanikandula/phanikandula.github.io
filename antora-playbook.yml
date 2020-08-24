@@ -1,5 +1,6 @@
 site:
   title: Phani Kandula's Website
+  url: https://www.phanikandula.com
   start_page: career::index.adoc 
 content:
   sources: 
