@@ -4,8 +4,8 @@ site:
   start_page: career::index.adoc 
 content:
   sources: 
-  - url: git@github.com:phanikandula/my-career.git
-    branches: master
+  - url: workspaces/my-career
+    branches: HEAD
 ui: 
   bundle:
     url: https://github.com/phanikandula/my-antora-ui/releases/download/v0.1.0/ui-bundle.zip
