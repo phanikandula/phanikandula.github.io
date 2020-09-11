@@ -12,7 +12,7 @@ generate: clean
 	cp static/CNAME build/docs/ && \
 	touch build/docs/.nojekyll
 
-generate-author: 
+generate-author: clean
 	$(shell npm bin)/antora author-playbook.yml && \
 	cp static/CNAME build/docs/ && \
 	touch build/docs/.nojekyll
